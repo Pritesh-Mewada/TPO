@@ -1,0 +1,27 @@
+$button-width: 80px;
+
+
+.navbar-brand{
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+ul.nav.navbar-nav{
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+}
+.Outline-button{
+  border: 1px solid #337ab7;
+  border-radius: 5px;
+  padding: 10px;
+  background: transparent;
+  font-size: 16px;
+  box-shadow: 5px 5px 10px #eee;
+  width: $button-width;
+}
+
+.Outline-button:hover{
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px #eee;
+}
